@@ -57,6 +57,6 @@ setup(
         ],
     },
     include_package_data=True,
-    author='Your Name',
+    author='Adam',
     description='A blazing-fast, colorful, and fully customizable system fetch tool',
 )
