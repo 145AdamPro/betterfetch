@@ -1,5 +1,9 @@
-import subprocess
+from setuptools import setup
+import platform
 from pathlib import Path
+import subprocess
+
+# Interactive setup for logo selection
 
 def install_requirements():
     try:
@@ -32,7 +36,27 @@ def main():
     print("🚀 Setting up BetterFetch...\n")
     configure_logo()
     install_requirements()
-    print("\n🎉 Setup complete! Run with: python3 bfetch.py")
+    print("\n🎉 Setup complete! Run with: bfetch")
 
 if __name__ == "__main__":
     main()
+
+setup(
+    name='betterfetch',
+    version='1.0.0',
+    py_modules=['bfetch'],
+    install_requires=[
+        'psutil',
+        'requests',
+        'GPUtil',
+        'colorama',
+    ],
+    entry_points={
+        'console_scripts': [
+            'bfetch = bfetch:display',
+        ],
+    },
+    include_package_data=True,
+    author='Your Name',
+    description='A blazing-fast, colorful, and fully customizable system fetch tool',
+)
