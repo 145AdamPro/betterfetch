@@ -42,3 +42,5 @@ git clone https://github.com/145AdamPro/betterfetch.git
 cd betterfetch
 .\install.ps1
 ```
+#### How to run it
+```bfetch```
