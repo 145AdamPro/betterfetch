@@ -32,7 +32,8 @@ Includes detailed hardware info (multi-GPU, IPs, HWID, weather, location) and cu
 ```bash
 git clone https://github.com/145AdamPro/betterfetch.git
 cd betterfetch
-python3 installer.py
+python3 setup.py
+bfetch
 ```
 
 #### 🪟 Windows (PowerShell)
@@ -40,5 +41,6 @@ python3 installer.py
 ```bash
 git clone https://github.com/145AdamPro/betterfetch.git
 cd betterfetch
-.\install.ps1
+python3 setup.py
+bfetch
 ```
