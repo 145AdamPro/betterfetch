@@ -33,7 +33,6 @@ Includes detailed hardware info (multi-GPU, IPs, HWID, weather, location) and cu
 git clone https://github.com/145AdamPro/betterfetch.git
 cd betterfetch
 python3 setup.py
-pip3 install .
 bfetch
 ```
 
@@ -43,6 +42,5 @@ bfetch
 git clone https://github.com/145AdamPro/betterfetch.git
 cd betterfetch
 python3 setup.py
-pip3 install .
 bfetch
 ```
