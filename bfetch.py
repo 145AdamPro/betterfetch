@@ -12,6 +12,8 @@ from pathlib import Path
 from getpass import getuser
 from colorama import Fore, Style, init
 
+print(" ")
+
 init(autoreset=True)
 
 RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE = (
@@ -158,3 +160,4 @@ def display():
 
 if __name__ == "__main__":
     display()
+    print(" ")
